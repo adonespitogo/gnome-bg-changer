@@ -1,0 +1,11 @@
+[Unit]
+Description=Run change-bg.sh script every 5 minutes
+
+[Timer]
+AccuracySec=1
+OnCalendar=*:0/5
+Unit=change-bg.service
+
+[Install]
+WantedBy=default.target
+
