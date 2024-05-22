@@ -1,7 +1,5 @@
 #!/bin/bash
 
-#!/bin/bash
-
 # Set the directory containing your wallpapers
 wallpaper_dir="/home/adonesp/Pictures/Wallpapers"
 
