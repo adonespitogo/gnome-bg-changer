@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set the directory containing your wallpapers
-wallpaper_dir="/home/adonesp/Pictures/Wallpapers"
+wallpaper_dir="$HOME/Pictures/Wallpapers"
 
 # Get a list of all image files in the directory
 wallpapers=("$wallpaper_dir"/*)
