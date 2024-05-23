@@ -7,7 +7,7 @@ You can also forcefully change the background by running the script in `.config/
 ```sh
 mkdir -p ~/Pictures/Wallpapers
 git clone https://github.com/adonespitogo/gnome-bg-changer.git /tmp/gnome-bg-changer
-cp -r /tmp/gnome-bg-changer/* ~/.config/
+cp -r /tmp/gnome-bg-changer/.config/* ~/.config/
 chmod +x ~/.config/scripts/change-bg.sh
 systemctl --user enable --now change-bg.timer
 ```

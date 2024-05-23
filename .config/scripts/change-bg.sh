@@ -1,5 +1,7 @@
 #!/bin/bash
 
+HOME=$1
+
 # Set the directory containing your wallpapers
 wallpaper_dir="$HOME/Pictures/Wallpapers"
 
